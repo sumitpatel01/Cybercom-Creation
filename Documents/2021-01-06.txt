@@ -1,0 +1,24 @@
+Hello sir,
+  i have stated the day with the revision of yesterday and then i worked on the error type and how it solve it.for instance yesterday's session many intern have the error like vim editor so, i have learned setup of git 
+  then i have lerned different command that i mentioned below
+  1>  touch
+  2>  git checkout filename (recover purpose)
+  3>  git checkout -f (recover purpose)
+  4>  git commit and git commit -a -m "msg"
+  5>  git log 
+  6>  git diff and git diff --staged
+  7>  ls  and git ls-files
+  8>  .gitignore folder
+  9>  git status -s
+  10> git pull
+  11> git rm --cached 
+  12> git revert
+
+and then i heard tommorow about the conflict,
+so, i imagine that situation and explore about it web refference : https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git-repository
+and also discuss the many scenario in conflict.
+
+after the q&a session i revise everything and practice all the command in git bash.
+and the refer tutorial : https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag
+  
+Thanks   
