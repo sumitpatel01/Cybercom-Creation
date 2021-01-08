@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+</head>
+<body>
+    <script>
+
+        // step 1:
+        var mark_mass = 60;
+        var john_mass = 75;
+        var mark_height = 1.8;
+        var john_height = 1.74;
+
+        // function that calculates the BMI and return the bmi
+
+        function calBMI(m,h){
+            var mass = m;
+            var height = h;
+
+            return (mass / (height*height));
+        }
+
+        //step 2:
+        var mark_BMI = calBMI(mark_mass,mark_height);
+        // console.log(mark_BMI);
+        var john_BMI = calBMI(john_mass,john_height);
+        // console.log(john_BMI);
+
+        //step 3:
+        var check_mark_BMI = mark_BMI > john_BMI;
+
+        //step 4:
+        console.log("Is Mark's BMI higher than John's? " + check_mark_BMI)
+
+    </script>
+    
+</body>
+</html>
