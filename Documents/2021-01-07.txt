@@ -1,7 +1,0 @@
-today , i started my day with the revision of the previous learned command.
-after that i explored the git on google and i see tutorial over there and it was the javatpoint's git tutorial so, i read it.
-and that command is as following:
-   git cherry-pic, git reset, git rebash and git squash and remaining command is almost refered on previous day.
-and there was doubt i had that when we should use the sqaush command. 
-
- but in q&a session it solved.and thank you for your 3 days question answer session and trained us in out professional journey :)  
