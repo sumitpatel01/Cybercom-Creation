@@ -1,0 +1,7 @@
+today, i started my day with the javascript tutorial which has been sent us and i watched out it very 
+smoothly but in the function video i am new at the function expression. i haven't seen it before and i ain't aware about it.
+so, i practiced a lot in function expression. and after in array i have practiced all method like push, upshift , pop ,sift etc...
+then i moved in the html practice and coding challenge area. but there is reapeted javascript coding chalange, so, i moved in the html design, named testimonial
+in there i have watched many code by searching and implemented same design with responsive. and then i have practiced some css properrty.
+this css is refering only for knowledge after that i am using bootstrap to avoiding time waste in long code.
+Thanks for your question and answer sessions :) 
