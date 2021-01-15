@@ -1,0 +1,5 @@
+today, i statred day with the javascript practice video and try to understand it and
+ then i practice with the coding challange and html table and also explore some json part ,
+ javascript object ,function construvtor,and parsing function etc..
+
+thanks :).
