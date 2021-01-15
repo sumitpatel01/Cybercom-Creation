@@ -1,0 +1,44 @@
+table
+{
+	width: 60%;
+}
+table,th,td
+{
+	border: 1px solid black;
+	height: 35px;
+	border-collapse: collapse;
+}
+thead,tbody
+{
+	border-style: double;
+}
+th
+{
+	background-color: lightgreen;
+	word-break: break-all;
+}
+td:nth-child(1)
+{
+	background-color: lightblue;
+	font-weight: bold;
+}
+td:nth-child(2)
+{
+	background-color: azure;
+}
+td:nth-child(3)
+{
+	background-color: lightcoral;
+}
+td:nth-child(4)
+{
+	background-color: khaki;
+}
+#bootom-2 > td
+{
+	border-bottom: none;
+}
+#bottom > td
+{
+	border-top: none;
+}

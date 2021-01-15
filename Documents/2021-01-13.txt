@@ -1,5 +1,5 @@
 today, i statred day with the javascript practice video and try to understand it and
- then i moe on the javascript project of diffrent different module which i have been doing.and i am working on it.
+ then i move on the javascript project of diffrent different module which i have been doing.and i am working on it.
 and then in the question answer meeting mam told us to practice with the local storage and session storage so, i have practiced on it. 
 and doing further project of the javascript. and while needs to know the dom deeply i explored the w3chool.com.
 exploring html5 tag like sup, sub, audio, video, q, map , summary etc...
