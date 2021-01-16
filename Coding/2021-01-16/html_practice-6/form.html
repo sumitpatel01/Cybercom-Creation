@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">    
+            <div class="header">
+                <h1>CONTACT US</h1>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <input type="text" name="username" id="name" placeholder="Full name">
+                    </div>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <input type="email" name="e-mail" id="e-mail" placeholder="Ex. example@email.com">
+                    </div>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <input type="number" name="phone" id="phone" placeholder="e.g. +1800 000000">
+                    </div>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Yout comments..."></textarea>
+                    </div>
+                    <input type="button" value="send now" id="button" onclick="myFunction()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <SCript>
+        function myFunction() {
+        alert("your response has been submitted !");
+        }
+    </SCript>
+    
+</body>
+</html>

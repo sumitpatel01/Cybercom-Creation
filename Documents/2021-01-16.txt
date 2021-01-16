@@ -1,0 +1,4 @@
+today i am done with all the concept of javascript advanced object and function.
+and used new scope method with the let and const and learn es6 javascript.
+and i have cmpleted today's task.
+Thanks :).
