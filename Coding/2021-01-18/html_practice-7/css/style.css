@@ -1,0 +1,26 @@
+#hobbies, .transport{
+    background: none;
+    overflow-y: hidden;
+}
+
+select.arrows {
+    background-color: white;
+    border: thin solid grey;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 0em 1.5em 0em 0em;
+    -webkit-appearance: none;
+  }
+
+/* upa nd down arrow image */
+  select.arrows {
+    background-image: url('../image/image.png');
+    background-position: calc(100%), 100% 0;
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+
+  tr > td {
+      width : 216px;
+  }
