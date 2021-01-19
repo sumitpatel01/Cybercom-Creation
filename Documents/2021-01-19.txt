@@ -1,0 +1,6 @@
+today, i practiced class and object in ecmascript5 and ecmascript6.
+and completed today html task after that i have gone for revision and 
+then about 4:40pm pritee ma'am has given us task related to object array and function.
+so, completed it with the reference of the stackoverflow.
+
+Thanks :)
