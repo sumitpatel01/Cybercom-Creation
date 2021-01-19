@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin : 5% 32%;
+}
+.container .box{
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    background-color: rgb(187, 184, 184);
+}
+.heading{
+    padding: 5px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+tr > td :nth-child(1){
+    margin-left: 10px;
+}
+
+tr > td{
+    width : 250px;
+}
+td > label {
+    float: right;
+}
