@@ -1,66 +1,56 @@
 function validateform(){  
    
-    var name = document.forms["registrationForm"]["namel"].value;              
-    var email = document.forms["registrationForm"]["email"].value;    
-    var password = document.forms["registrationForm"]["password"].value;  
-    var confirmpassword= document.forms["registrationForm"]["confirm_password"].value;  
+    var name = document.getElementById('name').value;              
+    var email = document.getElementById('email').value;    
+    var password = document.getElementById('password').value;  
+    var confirmpassword= document.getElementById('confirm_password').value;  
 
-    console.log(name)
+    console.log(name);
+}
 
-    if (name == "")                                   
-    { 
-      document.getElementById('name_alert').innerHTML="** please enter a name.";
-        return false; 
-    } 
+//     if (name == "")                                   
+//     { 
+//       document.getElementById('name_alert').innerHTML="** please enter a name.";
+//     } 
 
-    if (email == "")                                   
-    { 
-      document.getElementById('password_alert').innerHTML="** please enter an email address.";
-        return false; 
-    } 
-    if (password == "" )                                   
-    { 
-      document.getElementById('confirm_alert').innerHTML="** please enter an password";
-        return false; 
-    } 
-    if (confirmpassword == "")                                   
-    { 
+//     if (email == "")                                   
+//     { 
+//       document.getElementById('email_alert').innerHTML="** please enter an email address."; 
+//     } 
+//     if (password == "" )                                   
+//     { 
+//       document.getElementById('password_alert').innerHTML="** please enter an password";
+//     } 
+//     if (confirmpassword == "")                                   
+//     { 
       
-      document.getElementById('confirm_alert').innerHTML="** please enter an password";
-        return false; 
-    } 
+//       document.getElementById('confirm_alert').innerHTML="** please enter an password";
+//     } 
 
    
-    if (email.indexOf("@") < 0)                 
-    {   
-        document.getElementById('email_alert').innerHTML="** Please enter a valid e-mail address."; 
-        return false; 
-    } 
+//     if (email.indexOf("@") < 0)                 
+//     {   
+//         document.getElementById('email_alert').innerHTML="** Please enter a valid e-mail address."; 
+//     } 
 
-    if (email.lastIndexOf(".") < email.length-2)                 
-    { 
-        document.getElementById('email_alert').innerHTML ="** Please enter a valid e-mail address.";  
-        return false; 
-    }
-
-    document.getElementById('pass1').innerHTML="";
+//     if (email.lastIndexOf(".") < email.length-2)                 
+//     { 
+//         document.getElementById('email_alert').innerHTML ="** Please enter a valid e-mail address.";  
+//     }
 
 
-    if (password.length<6)                        
-    { 
-        document.getElementById('pass2').innerHTML="** Password must contain 6 characters"; 
-        return false; 
-    }
-    document.getElementById('pass2').innerHTML="";
 
-
-    if (password.value!=confirmpassword.value)                        
-    { 
-        document.getElementById('pass3').innerHTML="** Password and confirmpassword must be same"; 
-        return false; 
-    }
-    document.getElementById('success').innerHTML="form valid"; 
-    alert("form valid");
-}
+//     if (password.length<6)                        
+//     { 
+//         document.getElementById('password').innerHTML="** Password must contain 6 characters"; 
+//     }
+    
+//     if (password.value!=confirmpassword.value)                        
+//     { 
+//         document.getElementById('password').innerHTML="** Password and confirmpassword must be same"; 
+//     }
+//     document.getElementById('success').innerHTML="form valid"; 
+//     alert("form valid");
+// }
    
     
