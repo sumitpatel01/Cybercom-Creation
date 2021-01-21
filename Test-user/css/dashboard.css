@@ -28,13 +28,21 @@
     padding: 0px 10px;
   }
   .layout{
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 100%;
+	gap:30px;
+	justify-content: space-around;
   }
 
   .box {
-      height : 80px;
-      width :180px;
+      height :150px;
+      width :250px;
       background-color: orangered;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap:20px;
+      text-align: center;
   }

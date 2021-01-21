@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Registration</title>
 </head>
 <body>
@@ -12,28 +13,30 @@
         </div>
         <div class="box">
             <form method="POST">
-                <input type="text" name="name" id="name" placeholder="Name">
-                <span id="name_alert" style="color: red"></span><br>
-                <input type="text" name="email" id="email" placeholder="Email">
-                <span id="email_alert" style="color: red"></span><br>
-                <input type="password" name="password" id="password" placeholder="Password">
-                <span id="password_alert" style="color: red"></span><br>
-                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
-                <span id="confirm_alert" style="color: red"></span><br>
-                <select name="city" id="city">
-                    <option value="none">Select City</option>
-                    <option value="ahmedabad">Ahmedabad</option>
-                    <option value="surat">Surat</option>
-                </select>
-                <br>
-                <select name="state" id="state">
-                    <option value="none">Select City</option>
-                    <option value="gujarat">Gujarat</option>
-                    <option value="rajasthan">Rajasthan</option>
-                </select>
-                <br>
-                <input type="checkbox" name="terms" id="terms"><label for="terms">Terms & Condition</label><br>
-                <input type="button" value="REGISTER" onclick="validateform()">
+                <table>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <br>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <br>
+                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
+                    <br>
+                    <select name="city" id="city">
+                        <option value="none">Select City</option>
+                        <option value="ahmedabad">Ahmedabad</option>
+                        <option value="surat">Surat</option>
+                    </select>
+                    <br>
+                    <select name="state" id="state">
+                        <option value="none">Select City</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="rajasthan">Rajasthan</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" name="terms" id="terms"><label for="terms">Terms & Condition</label><br>
+                    <input type="button" value="REGISTER" onclick="validateform()">
+                </table>
             </form>
         </div>
     </div>

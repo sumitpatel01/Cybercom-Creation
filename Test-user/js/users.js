@@ -69,9 +69,11 @@ function storeData() {
 
 function delete_row(id){
     console.log(arrayUsers);
-    // arrayUsers.splice(id, 1);
-    // localStorage.setItem("arrayUsers",JSON.stringify(arrayUsers));
-    // alert('User Delete Sucessfully');
-    // window.location.href = 'User.html';
+    arrayUsers.splice(id, 1);
+    localStorage.setItem("arrayUsers",JSON.stringify(arrayUsers));
+    alert('User Delete Sucessfully');
+    window.location.href = 'User.html';
+}
+function edit_row(id){
 
 }
