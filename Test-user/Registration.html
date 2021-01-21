@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Registration</h1>
+        </div>
+        <div class="box">
+            <form method="POST" onsubmit="return validateform()" name="registrationForm">
+                <input type="text" name="name" id="name" placeholder="Name"><br>
+                <span id="name_alert" style="color: red"></span>
+                <input type="text" name="email" id="email" placeholder="Email"><br>
+                <span id="email_alert" style="color: red"></span>
+                <input type="password" name="password" id="password" placeholder="Password"><br>
+                <span id="password_alert" style="color: red"></span>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password"><br>
+                <span id="confirm_alert" style="color: red"></span>
+                <select name="city" id="city">
+                    <option value="none" disabled>Select City</option>
+                    <option value="ahmedabad">Ahmedabad</option>
+                    <option value="surat">Surat</option>
+                </select>
+                <br>
+                <select name="state" id="state">
+                    <option value="none" disabled>Select City</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="rajasthan">Rajasthan</option>
+                </select>
+                <br>
+                <input type="checkbox" name="terms" id="terms"><label for="terms">Terms & Condition</label><br>
+                <input type="button" value="REGISTER">
+            </form>
+        </div>
+    </div>
+    <script src="js/registration.js"></script>
+    
+</body>
+</html>

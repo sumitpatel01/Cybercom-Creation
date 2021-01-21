@@ -9,7 +9,9 @@ function storeData() {
     var y = document.getElementById('email').value;
     var z = document.getElementById('date').value;
 	const Student = new person(x,y,z);
-	localStorage.setItem("Student",JSON.stringify(Student));
+	var studentData = [{name:'sumit',email:'sumitpatel41306@gmail.com',dateOfBirth: '21/10/1999'}];
+	studentData.push(Student);
+	localStorage.setItem("studentData",JSON.stringify(studentData));
 	window.location.href = 'view.html';
 };
 
