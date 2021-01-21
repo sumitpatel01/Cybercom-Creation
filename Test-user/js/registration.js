@@ -5,7 +5,7 @@ function validateform(){
     var password = document.forms["registrationForm"]["password"].value;  
     var confirmpassword= document.forms["registrationForm"]["confirm_password"].value;  
 
-    console.log(name);
+    console.log(name)
 
     if (name == "")                                   
     { 
