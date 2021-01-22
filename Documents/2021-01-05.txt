@@ -1,8 +1,0 @@
-Hello sir,
-    Today I have started the basic of gits.
-    Firstly I learn about the git interface and how it working afterthat, I learned to create ssh key and what is the meaning of it.
-    while practicing it I have used about 30 minutes of time because whenever I tried to get ssh key, there is one error like no such file or directory. softerthat exploring it i came to know in command after cat there is space but i forgot that.
-    after cloning project is I think most easy and I had done very cleverly
-    and I have done all the command like status,branch checkout,fetch origin,remote,add,commit,push,rotating to main to any other branch, to check the how commit is worked,and after that merging other branch with main and how it worked.
-    additionaly I have read documentation of the git official website.I have completed chapter 1 and 2. and looking for to complete as soon as possible with deep learning.
-   Thanks you sir for giving an amazing session of question and answer today. 

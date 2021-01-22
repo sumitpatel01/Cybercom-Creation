@@ -1,8 +1,0 @@
-today , I started my day with the video tutorial of javascript and along this tutorial i have practiced with the concept and
- that is added in the javascript branch's practice folder. and after that i have been practicing on css and html.
- after meeting i have paused javascript in the chrome and practiced with the noscript tag. it running and this code is attached in the html branch's practice folder.
- and also ma'am told us the pwa(progressive web app). so, i read about this.and i also see the different of local storage and session storage.
-   local storage : it stores file locally and for destroy it we have to execute command.
-   session storage : it is basicaly storage of the browser session. after closing the browser the session storage is removed.
-
-   thanks :) 

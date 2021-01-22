@@ -1,8 +1,0 @@
-today, i started my day with the js basics which was given by cybercom team.
-and i have practiced it with the video and tried many way with the debugging in the console 
-and refer datatype, and operater precedence, mutation and coercion.
-
-after i came into the task and i have done all the thing perfectly and send the git repo.
-and then i keep doing the html task but i haven't gone good in css.so, i tried many way to explore it.and finally i have completed it.
-
-i faced lot of difficulties in css. but slowly improved and i am working in it.
