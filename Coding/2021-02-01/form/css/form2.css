@@ -1,0 +1,27 @@
+fieldset{
+    background-color:yellowgreen;
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    margin-right: 520px;
+    text-align: center;
+}
+table{
+    background-color: rgb(0, 255, 0);
+}
+td{
+    float:left;
+}
+tr > :nth-child(1) {
+    width : 200px;
+    text-align: left;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top :10px;
+    padding :0;
+    margin-left: 600px;
+    margin-right: 600px;
+}

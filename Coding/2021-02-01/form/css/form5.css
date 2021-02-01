@@ -1,0 +1,19 @@
+.container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-left: 600px;
+margin-right: 600px;
+}
+.label{
+    background-color: red;
+    color: white;
+}
+input{
+    background-color:lightgray ;
+}
+input[type = submit]{
+    background-color:rgb(14, 151, 14);
+    color: white;
+    height: 30px;
+}
