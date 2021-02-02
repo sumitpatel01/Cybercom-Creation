@@ -15,12 +15,8 @@ function validateForm() {
     var date = document.getElementById('date');
     var month = document.getElementById('month');
     var year = document.getElementById('year');
-    var marital = document.getElementsByName('user');
-
-    console.log(gender.value);
-    console.log(marital.value);
-    console.log(date.value);
-    console.log(month.value);
+    var marital = document.getElementsByName('marital');
+    var agree = document.getElementById('agree');
 
 
     for(var i=0; i < checkboxes.length; i++) {
@@ -29,7 +25,7 @@ function validateForm() {
         }
     }
 
-    var nameErr = passErr = addErr = genderErr = maritalErr = dobErr= true;
+    var nameErr = passErr = addErr = genderErr = maritalErr = gameErr =  dobErr = agreeErr = true;
 
     if(username.value == "") {
         printError("nameErr", "Please enter your name");
@@ -67,10 +63,17 @@ function validateForm() {
     }
 
     if(!marital[0].checked && !marital[1].checked) {
-        printError("maritalErr", "Please select your age");
+        printError("maritalErr", "Please select your marital status");
     } else {
         printError("maritalErr", "");
         maritalErr = false;
+    }
+
+    if(games.length == 0) {
+        printError("gameErr", "Please select game");
+    } else {
+        printError("gameErr", "");
+        gameErr = false;
     }
 
 
@@ -80,24 +83,33 @@ function validateForm() {
         printError("dobErr", "");
         dobErr = false;
     }
+
+    if (!agree.checked) {
+        printError("agreeErr", "select terms & conditions");
+    } else {
+        printError("agreeErr", "");
+        agreeErr = false;
+    }
     
-    if((nameErr || passErr || addErr || genderErr || dobErr || maritalErr) == true) {
+    if((nameErr || passErr || addErr || genderErr || dobErr || maritalErr || gameErr || agreeErr) == true) {
         return false;
      } else {
          // Creating a string from input data for preview
-         var dataPreview = "You've entered the following details: \n" +
-                           "Full Name: " + username.value + "\n" +
-                           "password: " + password.value + "\n" +
-                           "DOB: " + date.value +"-"+ month.value + "-"+ year.value + "\n" +
-                           "address: " + address.value + "\n" +
-                           "gender: " + gender.value + "\n" +
-                           "marital status: " + marital.value + "\n";
+        //  var dataPreview = "You've entered the following details: \n" +
+        //                    "Full Name: " + username.value + "\n" +
+        //                    "password: " + password.value + "\n" +
+        //                    "DOB: " + date.value +"-"+ month.value + "-"+ year.value + "\n" +
+        //                    "address: " + address.value + "\n" +
+        //                    "gender: " + gender.value + "\n" +
+        //                    "marital status: " + marital.value + "\n";
 
-         if(games.length) {
-             dataPreview += "games: " + games.join(", ");
-         }
-         // Display input data in a dialog box before submitting the form
-         alert(dataPreview);
+        //  if(games.length) {
+        //      dataPreview += "games: " + games.join(", ");
+        //  }
+        //  // Display input data in a dialog box before submitting the form
+        //  alert(dataPreview);
+
+        return true;
      }
 
 }
